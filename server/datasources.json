@@ -1,0 +1,14 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "Eventstore": {
+    "name": "Eventstore",
+    "connector": "mongodb",
+
+    "host": "localhost",
+    "port": 27017,
+    "database": "eventstore"
+  }
+}
