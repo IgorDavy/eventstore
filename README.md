@@ -71,7 +71,7 @@ sudo npm install -g forever
 
 ### Lancer l'application :
 ```sh
-forever start -l ${PWD}/logs/out.log server/server.js
+forever start -l ${PWD}/out.log server/server.js
 ```
 
 #Installation et lancement pour Windows
@@ -108,5 +108,5 @@ npm install -g forever
 
 ###Lancer l'application avec forever
 ```sh
-forever start -l %CD%\logs\out.log server\server.js
+forever start -l %CD%\out.log server\server.js
 ```
